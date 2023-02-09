@@ -11,7 +11,16 @@ public class sort {
             array[i+1] = key;  
         }  
     }  
+     public static void sorter(int array[]){
+        insertionSort(array);
+        System.out.println("Insertion Sort:");
+        for(int i:array){    
+            System.out.print(i+" ");    
+        }    
+    }
     public static void main(String[] args) {
+        int[] arr1 = {9,14,3,2,43,11,58,22};  
+        sorter(arr1);
         int [] arr = new int[5];
         arr[0]=2;
         arr[1]=122;
