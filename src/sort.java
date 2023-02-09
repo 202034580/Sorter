@@ -13,7 +13,9 @@ public class sort {
     }  
      public static void sorter(int array[]){
         insertionSort(array);
-        System.out.println("Insertion Sort:");
+         System.out.println("Insertion Sort:");
+        selectionSort(array);
+         System.out.println("Selection Sort:");
         for(int i:array){    
             System.out.print(i+" ");    
         }    
@@ -28,6 +30,7 @@ public class sort {
         arr[3]=102;
         arr[4]=82;
         selectionSort(arr);
+        sorter(arr);
     }
     static void selectionSort(int arr[])
     {
